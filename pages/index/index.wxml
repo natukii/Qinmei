@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="ntk-container">
+	<view class="ntk-primary-header">
+		<view class="ntk-primary-header_profile">
+			<image class="ntk-primary-header_avatar" src="https://secure.gravatar.com/avatar/5150fd48e62a08dd40da782f516e3854?s=50&d=mm&r=g"></image>
+		</view>
+		<scroll-view class="ntk-primary-header_scroll-x" scroll-x="true">
+			<view class="ntk-primary-header_nav">
+				<navigator class="ntk-actived" href="#"><text class="ntk-iconfont ntk-iconfont_home"></text></navigator>
+				<navigator href="#">连载番剧</navigator>
+				<navigator href="#">所有番剧</navigator>
+				<navigator href="#">剧场版</navigator>
+				<navigator href="#">战斗</navigator>
+				<navigator href="#">搞笑</navigator>
+				<navigator href="#">日常</navigator>
+				<navigator href="#">治愈</navigator>
+				<navigator href="#">致郁</navigator>
+				<navigator href="#">异界</navigator>
+			</view>
+		</scroll-view>
+		<view class="ntk-primary-header_search">
+			<navigator href="#"><text class="ntk-iconfont ntk-iconfont_search"></text></navigator>
+		</view>
+	</view>
+</view>
