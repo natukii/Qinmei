@@ -72,3 +72,9 @@
 .ntk-view-card_container .ntk-view-content .ntk-view-card_x .ntk-view-image{
 	height: 200rpx;
 }
+.ntk-view-card_container .ntk-view-content .ntk-view-card_y{
+	width: 33.333333%;
+}
+.ntk-view-card_container .ntk-view-content .ntk-view-card_y .ntk-view-image{
+	height: 320rpx;
+}

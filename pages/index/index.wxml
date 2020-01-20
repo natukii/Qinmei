@@ -61,4 +61,25 @@
 			</view>
 		</view>
 	</view>
+	<view class="ntk-view-card_container">
+		<view class="ntk-view-header"><text class="ntk-iconfont ntk-iconfont_new"></text>站长推荐</view>
+		<view class="ntk-view-content">
+			<view class="ntk-view-card ntk-view-card_y">
+				<view class="ntk-view-image" style="background-image: url(https://i.loli.net/2020/01/20/kXWD2bvSnI5JKRO.jpg);"></view>
+				<view class="ntk-view-title">青春猪头少年不会梦到怀梦美少女</view>
+			</view>
+			<view class="ntk-view-card ntk-view-card_y">
+				<view class="ntk-view-image" style="background-image: url(https://i.loli.net/2020/01/20/oug3yAxSV1HijWv.jpg);"></view>
+				<view class="ntk-view-title">魔王勇者</view>
+			</view>
+			<view class="ntk-view-card ntk-view-card_y">
+				<view class="ntk-view-image" style="background-image: url(https://i.loli.net/2020/01/20/vkb2DaLcrH39Sj8.jpg);"></view>
+				<view class="ntk-view-title">TARI TARI</view>
+			</view>
+			<view class="ntk-view-card ntk-view-card_y">
+				<view class="ntk-view-image" style="background-image: url(https://i.loli.net/2020/01/20/Mj4Rv1wEeqouUkY.jpg);"></view>
+				<view class="ntk-view-title">爱,死亡与机器人</view>
+			</view>
+		</view>
+	</view>
 </view>
