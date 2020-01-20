@@ -4,22 +4,61 @@
 		<view class="ntk-primary-header_profile">
 			<image class="ntk-primary-header_avatar" src="https://secure.gravatar.com/avatar/5150fd48e62a08dd40da782f516e3854?s=50&d=mm&r=g"></image>
 		</view>
-		<scroll-view class="ntk-primary-header_scroll-x" scroll-x="true">
+		<scroll-view class="ntk-primary-header_scroll-x" scroll-x="true" enable-flex="true">
 			<view class="ntk-primary-header_nav">
 				<navigator class="ntk-actived" href="#"><text class="ntk-iconfont ntk-iconfont_home"></text></navigator>
-				<navigator href="#">连载番剧</navigator>
-				<navigator href="#">所有番剧</navigator>
-				<navigator href="#">剧场版</navigator>
-				<navigator href="#">战斗</navigator>
-				<navigator href="#">搞笑</navigator>
-				<navigator href="#">日常</navigator>
-				<navigator href="#">治愈</navigator>
-				<navigator href="#">致郁</navigator>
-				<navigator href="#">异界</navigator>
+				<navigator url="#">连载番剧</navigator>
+				<navigator url="#">所有番剧</navigator>
+				<navigator url="#">剧场版</navigator>
+				<navigator url="#">战斗</navigator>
+				<navigator url="#">搞笑</navigator>
+				<navigator url="#">日常</navigator>
+				<navigator url="#">治愈</navigator>
+				<navigator url="#">致郁</navigator>
+				<navigator url="#">异界</navigator>
 			</view>
 		</scroll-view>
 		<view class="ntk-primary-header_search">
-			<navigator href="#"><text class="ntk-iconfont ntk-iconfont_search"></text></navigator>
+			<navigator url="#"><text class="ntk-iconfont ntk-iconfont_search"></text></navigator>
+		</view>
+	</view>
+	<view class="ntk-primary-swiper_container">
+		<swiper class="ntk-primary-swiper" indicator-dots="true" circular="true" autoplay="true">
+			<swiper-item class="ntk-primary-swiper_item">
+				<navigator url="#">
+					<view class="ntk-primary-swiper_item_image" style="background-image: url(https://qinmei.video/img/others/c32262196af4ff55786511518fa64b99.jpg);">
+						<text class="ntk-primary-swiper_item_image_title">某科学的超电磁炮</text>
+					</view>
+				</navigator>
+			</swiper-item>
+			<swiper-item class="ntk-primary-swiper_item">
+				<navigator url="#">
+					<view class="ntk-primary-swiper_item_image" style="background-image: url(https://qinmei.video/img/animate/96ebb269e22b0fb4bce91539a1c25d2e.jpeg);">
+						<text class="ntk-primary-swiper_item_image_title">DARLING in the FRANXX</text>
+					</view>
+				</navigator>
+			</swiper-item>
+		</swiper>
+	</view>
+	<view class="ntk-view-card_container">
+		<view class="ntk-view-header"><text class="ntk-iconfont ntk-iconfont_new"></text>新番连载</view>
+		<view class="ntk-view-content">
+			<view class="ntk-view-card ntk-view-card_x">
+				<view class="ntk-view-image" style="background-image: url(https://i.loli.net/2020/01/20/hSOnXqjTCZ89GLe.jpg);"></view>
+				<view class="ntk-view-title">房间露营</view>
+			</view>
+			<view class="ntk-view-card ntk-view-card_x">
+				<view class="ntk-view-image" style="background-image: url(https://i.loli.net/2020/01/20/jtIRvlFEK57CDd3.jpg);"></view>
+				<view class="ntk-view-title">非洲的动物上班族</view>
+			</view>
+			<view class="ntk-view-card ntk-view-card_x">
+				<view class="ntk-view-image" style="background-image: url(https://i.loli.net/2020/01/20/5ofsDGnQc67EvSm.jpg);"></view>
+				<view class="ntk-view-title">冰海战记</view>
+			</view>
+			<view class="ntk-view-card ntk-view-card_x">
+				<view class="ntk-view-image" style="background-image: url(https://i.loli.net/2020/01/20/DXqJr6Uk8cSbjdy.jpg);"></view>
+				<view class="ntk-view-title">我，不是说了能力要平均值么！</view>
+			</view>
 		</view>
 	</view>
 </view>
